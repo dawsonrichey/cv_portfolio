@@ -72,6 +72,15 @@
         padding-bottom: 20px;
 
     }
+    
+    td {
+        float: right;
+        border: 0;
+    }
+
+.table td, .table th {
+        border: 0px;
+    }
 
 </style>
 <!-- Nav & Header Container -->
@@ -93,25 +102,47 @@
 <!-- About Container -->
 <div class="container-fluid" id="about">   
 
-<div class="row bg-primary" style="background-image: url('images/background.jpg');">
+<div class="row bg-primary" style="background-image: url('images/006.jpg');">
     <div class="col-2"></div>
     <div class="col-5 bg-info">
         <div class="row">
-            <div class="col-12">
-                <h1>Dawson Richey</h1><hr>
-                <h2>Web Developer and Designer</h2>
-                <p>As an intellectually dexterous and ambitious individual, I thrive in fast paced enviorments that allow me to assist others while challenging and cultivating my knowledge and understanding of the tasks at hand. I wish to obtain a position that will utilize my skills, facilitate personal improvemnt, imparting new skills and gained experience.</p>
+            <div class="col-12 bg-warning p-4 px-2">
+                <h1 class="display-4 text-uppercase pl-2">Dawson Richey</h1>
+                <p class="h4 font-weight-light pl-4">Web Developer and Designer</p><hr>
+                <p class="lead p-4">As an intellectually dexterous and ambitious individual, I thrive in fast paced enviorments that allow me to assist others while challenging and cultivating my knowledge and understanding of the tasks at hand. I wish to obtain a position that will utilize my skills, facilitate personal improvemnt, imparting new skills and gained experience.</p>
             </div>
-<hr>
-    <div class="col-12 bg-danger">
-        <h4>Name: Dawson Richey</h4>
-        <h4>Location: Bloomington, IN</h4>
-        <h4>Cell: (812) 820-2612</h4>
-        <h4 class="">Email: dawsonrichey@gmail.com</h4>
-        <a class="scroll-down" href="#sectionContact">Send me a message!</a>
+                <hr>
+            <div class="col-12 bg-danger p-3">
+                <table class="table px-5 mx-auto" style="width:85%;">
+  <thead>
+    <tr>
+      <th scope="col" colspan="2" class="text-uppercase text-center mx-auto h3">Contact Information</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr class="px-5 mx-5">
+      <th scope="row">Name</th>
+      <td>Dawson Richey</td>
+    </tr>
+    <tr class="px-3 mx-3">
+      <th scope="row">Location</th>
+      <td>Bloomington, IN</td>
+    </tr>
+    <tr>
+      <th scope="row">Cell</th>
+      <td>(812) 820-2612</td>
+    </tr>
+    <tr>
+      <th scope="row">Email</th>
+      <td>dawsonrichey@gmail.com</td>
+   
+    </tr>
+  </tbody>
+</table>
+                    <button type="button" class="mx-auto btn btn-light"><a class="scroll-down" href="#contact">Send Me A Message</a></button>
+            </div>
+        </div>
     </div>
-</div>
-</div>
     <div class="col"></div>
 
 
@@ -407,7 +438,7 @@
              <table style="height:100%">
               <tbody>
                 <tr>
-                  <td class="align-middle">Dawson Richey 2017.</td>
+                  <td class="align-middle text-muted">Dawson Richey 2017.</td>
                 </tr>
               </tbody>
             </table>
