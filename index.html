@@ -32,18 +32,29 @@
     .resume {
     transition: background-color .4s;
     padding: 50px;
-    border-left: 1px solid #eee;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-left: 2px solid #35B5F8;
+    border-top: 2px solid #35B5F8;
+    border-bottom: 2px solid #35B5F8;
+    }
+    .skills {
+    transition: background-color .4s;
+    padding: 50px;
+    border: 2px solid #35B5F8;
+    }
+    .skills {
+    transition: background-color .4s;
+    padding: 50px;
+    border: 2px solid #35B5F8;
     }
     
     .res {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-top: 0px;
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
     }
     
     .r {
@@ -80,24 +91,81 @@
 <!-- END Container -->
 
 <!-- About Container -->
-<div class="container" id="about">
-    <h1 class="text-center pt-3">About</h1>
-    <hr>
-    <div class="row bg-primary">
-        <div class="col bg-danger"></div>
-        <div class="col bg-info"></div>
+<div class="container-fluid" id="about">   
+
+<div class="row bg-primary" style="background-image: url('images/background.jpg');">
+    <div class="col-2"></div>
+    <div class="col-5 bg-info">
+        <div class="row">
+            <div class="col-12">
+                <h1>Dawson Richey</h1><hr>
+                <h2>Web Developer and Designer</h2>
+                <p>As an intellectually dexterous and ambitious individual, I thrive in fast paced enviorments that allow me to assist others while challenging and cultivating my knowledge and understanding of the tasks at hand. I wish to obtain a position that will utilize my skills, facilitate personal improvemnt, imparting new skills and gained experience.</p>
+            </div>
+<hr>
+    <div class="col-12 bg-danger">
+        <h4>Name: Dawson Richey</h4>
+        <h4>Location: Bloomington, IN</h4>
+        <h4>Cell: (812) 820-2612</h4>
+        <h4 class="">Email: dawsonrichey@gmail.com</h4>
+        <a class="scroll-down" href="#sectionContact">Send me a message!</a>
     </div>
+</div>
+</div>
+    <div class="col"></div>
+
+
     <br>
 </div>
+</div>
+
 <!-- END Container -->
 
 <!-- Education Container -->
-<div class="container-fluid bg-warning" id="education">
+<div class="container-fluid" id="education">
     <div class="container">
-    <h1 class="text-center pt-3">Education<hr></h1>
-     <div class="row">
+    <h1 class="text-center pt-3 text-uppercase">Resume</h1>
+    <h5 class="text-center pt-3 text-muted">Learn More About My Experience</h5><hr>
+        <div class="row">
+        <div class="col-12">
+            <h4 class="text-center mb-2 pt-3">Education</h4><hr class="pb-1 mb-1"><br>
+        </div>
+        <div class="row col-6">
+            <h4 class="col-12">Miami University <span class="badge badge-info resumeblock" style="float: right;">Oxford, OH</span><span style="display:none;">Class of 2015 </span></h4>
+                <div class="col-12">
+                    <div class="pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">
+                        <p>B.A. Fine Arts - American Studies <span style="display:none"> 2008 - 2015 </span></p>
+                        <p>Focus on interactive media, consumerism, and popular culture</p>
+                    </div>
+                </div>
+            <h4 class="col-12">Dubois University <span class="badge badge-success" style="float: right;">Luxembourg</span></h4> 
+                <div class="col-12">
+                    <div class="resumeblock pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">
+                        <p>Study Abroad</p>
+                        <p>Spring  2010</p>
+                    </div>
+                </div>
+        </div>
+        <div class="row col-6">
+            <div class="col-12 px-4">
+                    <h4>Code Louisville<span class="badge badge-danger" style="float: right;">Louisville, KY</span></h4> 
+                        <div class="resumeblock pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">
+                            <p>Full Stack JavaScript</p>
+                            <p>Spring  2010</p>
+                        </div>
+                </div>
+            <div class="col-12 px-4">
+                    <h4>Code Louisville<span class="badge badge-danger" style="float: right;">Louisville, KY</span></h4> 
+                        <div class="resumeblock pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">
+                            <p>Full Stack JavaScript</p>
+                            <p>Spring  2010</p>
+                        </div>
+                </div>
+        </div>
+    </div>
+        <div class="row">
         <div class="col-6 px-4 pb-3">
-             <h3 class="text-center mb-4 pt-3">Employment</h3><hr>
+             <h4 class="text-center mb-2 pt-3">Employment</h4><hr>
                 <div class="resumeblock px-3" style="">
                     <h4>Mid-America Science Park <span class="" style="float: right; display: none;">Summer 2009</span></h4>
                     <p class="font-weight-light pb-0 mb-2">Intern - Social Media Development</p>
@@ -126,8 +194,8 @@
                 </div>
             </div>
         <div class="col-6 px-4">
-            <h3 class="text-center mb-4 pt-3">Programming Skills</h3><hr>
-                <p class="px-3">
+            <h4 class="text-center mb-2 pt-3">Programming Skills</h4><hr>
+                <p class="px-3 font-weight-bold">
                     HTML5   <span style="float: right;" ><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -137,7 +205,7 @@
                                 <i class="closed fa fa-dot-circle-o"></i>
                             </span>
                 </p>
-                <p class="px-3">
+                <p class="px-3 font-weight-bold">
                     CSS3   <span style="float: right;"><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -147,7 +215,7 @@
                                 <i class="open fa fa-circle-o"></i>
                             </span>
                 </p>
-                <p class="px-3">
+                <p class="px-3 font-weight-bold">
                     jQuery / JavaScript<span style="float: right;"><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -157,7 +225,7 @@
                                 <i class="open fa fa-circle-o"></i>
                             </span>
                 </p>
-                <p class="px-3">
+                <p class="px-3 font-weight-bold">
                     PHP   <span style="float: right;"><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -167,7 +235,7 @@
                                 <i class="open fa fa-circle-o"></i>
                             </span>
                 </p>
-                <p class="px-3">
+                <p class="px-3 font-weight-bold">
                     Fireworks   <span style="float: right;"><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -177,7 +245,7 @@
                                 <i class="open fa fa-circle-o"></i>
                             </span>
                 </p>
-                <p class="px-3">
+                <p class="px-3 font-weight-bold">
                     Fireworks   <span style="float: right;"><i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
                                 <i class="closed fa fa-dot-circle-o"></i>
@@ -251,82 +319,49 @@
                             </span>
                 </p>
         </div>
-        <div class="col-12">
-            <h3 class="text-center mb-4 pt-3">Education</h3><hr class="pb-1 mb-1"><br>
-        </div>
-        <div class="col-6 px-4">
-            <div class="resumeblock">
-                <h4>Miami University <span class="badge badge-info" style="float: right;">Oxford, OH</span><span style="display:none">Class of 2015 </span></h4>
-                    <p class="pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">B.A. Fine Arts - American Studies <span style="display:none"> 2008 - 2015 </span></p>
-                    <p class="pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">Focus on interactive media, consumerism, and popular culture</p>
-                </div>
-        </div>
-        <div class="col-6 px-4">
-            <div class="resumeblock">
-                <h4>Dubois University <span class="badge badge-danger" style="float: right;">Luxembourg</span></h4> 
-                    <p class="pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">Study Abroad</p>
-                    <p class="pl-3 ml-3" style="border-left: 2px solid #000; list-style:none;">Spring  2010</p>
-                </div>
-        </div>
     </div>
     <br>
     </div>
     </div>
 <!-- END Container -->
         
-        <!--END container FLUID -->
-
 <!-- Skills Container -->
 <div class="container-fluid" id="skills">
     <h1 class="text-center pt-3">Skills</h1>
     <h3 class="text-center text-muted">Things About Me</h3><hr>
-    <div class="row text-center py-3">
-                <div class="col resume">
-                        <i class="fa fa-camera-retro fa-3x r"></i>
-
+    <div class="row text-center p-0 m-0">
+                <div class="col skills">
+                    <i class="fa fa-camera-retro fa-3x r"></i>
                     <div class="res">Photography</div>
                 </div>
 
-                <div class="col resume">
-                    <div class="re">
-                        90%
-                    </div>
-                    <div class="res">
-                        HTML &amp; CSS
-                    </div>
+                <div class="col skills">
+                    <div class="re">90%</div>
+                    <div class="res">HTML &amp; CSS</div>
                 </div>
 
-                <div class="col resume">
+                <div class="col skills">
                     <i class="fa fa-coffee fa-3x r"></i>
                     <div class="res">Coffee</div>
                 </div>
 
-                <div class="col resume">
-                    <div class="re">
-                        80%
-                    </div>
-                    <div class="res">
-                        Photoshop
-                    </div>
+                <div class="col skills">
+                    <div class="re">80%</div>
+                    <div class="res">Photoshop</div>
                 </div>
 
-                <div class="col resume">
-                        <i class="fa fa-music fa-3x r"></i>
-                    <div class="res">Guitar PLayer</div>
+                <div class="col skills">
+                    <i class="fa fa-music fa-3x r"></i>
+                    <div class="res">Guitar</div>
                 </div>
 
-                <div class="col resume">
-                    <div class="re">
-                        80%
-                    </div>
-                    <div class="res">
-                        Dreamweaver
-                    </div>
+                <div class="col skills">
+                    <div class="re">80%</div>
+                    <div class="res">Dreamweaver</div>
                 </div>
 
             </div>
 </div>
-
 <!-- END Container -->
 
 <!-- Work Container -->
