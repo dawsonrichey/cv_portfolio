@@ -1,22 +1,18 @@
 
+/* ABOUT SECTION */
 
-/*#container {
-   background-image: url('http://www.dawsonrichey.com/images/portfolio/big/006.jpg'); 
-} */
 #about{
    background-image: url('http://www.dawsonrichey.com/images/portfolio/big/006.jpg');
-}
-
-.light2 {
-    background-color: #ffffffd6;
-
-   /* opacity: .7; */
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .light {
     background-color: #33333381;
         color: #fff; 
-   /* opacity: .7; */
+}
+.light2 {
+    background-color: #ffffffd6;
 }
 
 h1 {
@@ -32,3 +28,4 @@ th {
     text-align: right;
     padding-right: 25px;
 }
+/* END ABOUT SECTION */
